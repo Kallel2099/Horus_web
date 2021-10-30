@@ -1,0 +1,25 @@
+<div class="login">
+  <div class="d-flex justify-content-center align-items-center" id="login">
+    <div class="logo"></div>
+    <div *ngIf="errormsg" class="alert alert-warning alert-dismissible fade show" role="alert">
+      <strong>{{ errormsg }}</strong>
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" (click)='reloadPage()'></button>
+    </div>
+    <div class="card p-3" id="card">
+      <form class="form-group">
+        <div>
+          <label for="log">Login</label>
+          <input [(ngModel)]="usuario.login" [ngModelOptions]="{standalone: true}" type="text" id="log" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="senha">Senha</label>
+          <input [(ngModel)]="usuario.senha" [ngModelOptions]="{standalone: true}" type="password" id="senha" class="form-control">
+        </div>
+        <div class="space"></div>
+        <div class="form-group" id="btns">
+          <button *ngIf = "!errormsg" class="btn btn-success btn-sm" type="submit" (click)='login()'>Entrar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

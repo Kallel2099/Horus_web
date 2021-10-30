@@ -1,0 +1,54 @@
+/*.main {
+    
+}*/
+
+.conteudo {
+    background-image: url(../assets/Imagens/Favoritas/Fundo2.jpg);
+    display: flex;
+}
+
+.rotas {
+    width: -webkit-fill-available;
+    height: 88vh;
+    overflow: auto;
+}
+
+
+
+
+/*
+.view{
+    display: grid;
+    grid-template-rows: 64px 1fr;
+    grid-template-areas: 
+        "navbar navbar"
+        "conteudo conteudo";
+    height: 100vh;
+}
+
+.conteudo {
+	grid-area: conteudo;
+	display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-areas: 
+        "sidebar main";
+}
+
+.sidebar {
+	grid-area: sidebar;
+    background-color:sandybrown;
+    width: 200px;
+}
+
+.navbar {
+	grid-area: navbar;
+    background-color: green;
+    width: 100vmax;
+    padding-top: 0px;
+}
+
+.main {
+    grid-area: main;
+    background-color: whitesmoke;
+}
+*/

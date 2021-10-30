@@ -1,0 +1,14 @@
+/*.main {
+    
+}*/
+
+.conteudo {
+    background-image: url(../../assets/Imagens/Favoritas/Fundo2.jpg);
+    display: flex;
+}
+
+.dashboard {
+    width: -webkit-fill-available;
+    height: 88vh;
+    overflow: auto;
+}

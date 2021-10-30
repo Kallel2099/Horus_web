@@ -1,0 +1,34 @@
+<div class="container mt-5">
+    <!-- show errormsg -->
+    <div *ngIf="errormsg" class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>{{ errormsg }}</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    <div *ngIf="successmsg" class="alert alert-success alert-dismissible fade show" role="alert">
+        <strong>{{ successmsg }}</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    <form [formGroup]="userForm">
+        <div class="col-lg-4 mt-2">
+            <input type="text" class="form-control" formControlName="matricula" placeholder="Digite a matricula">
+        </div>
+        <div class="col-lg-4 mt-2">
+            <input type="text" class="form-control" formControlName="login" placeholder="Escolha um login">
+        </div>
+        <div class="col-lg-4 mt-2">
+            <input type="text" class="form-control" formControlName="nivel" placeholder="Selecione um nível">
+        </div>
+        <div class="col-lg-4 mt-2">
+            <input type="text" class="form-control" formControlName="nome" placeholder="Digite o nome">
+        </div>
+        <div class="col-lg-4 mt-2">
+            <input type="text" class="form-control" formControlName="senha" placeholder="Digite uma senha">
+        </div>
+        <div class="col-lg-4 mt-2" *ngIf="!getparammat" (click)="userSubmit()">
+            <button class="btn btn-primary btn-sm">Create</button>
+        </div>
+        <div class="col-lg-4 mt-2" *ngIf="getparammat" (click)="userUpdate()">
+            <button class="btn btn-dark btn-sm">Update</button>
+        </div>
+    </form>
+</div>

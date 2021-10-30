@@ -1,0 +1,70 @@
+.login {
+    text-align: -webkit-center !important;
+    background-color: black !important;
+    white-space: break-spaces !important;
+    height: 100vh;
+}
+    
+
+
+#login {
+    background-image: url(../../assets/Imagens/Favoritas/Login.jpg) !important;
+    background-size: 710px 410px;
+    width: 700px;
+    height: 410px;
+    flex-direction: column;
+}
+
+#card {
+    display: flex;
+    background-color: rgba(255,255,255,0);
+    border: none;
+    align-self: flex-end;
+    text-align: left;
+    width: 250px;
+}
+
+#btns {
+    text-align: right !important;
+}
+
+.logo {
+    background-image: url(../../assets/Imagens/Favoritas/Horus.png) !important;
+    background-size: 450px 130px;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 200px;
+    align-self: start;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.btn-sm {
+    width: 100px;
+}
+
+.form-control {
+    height: 30px;
+}
+
+.space {
+    height: 10px;
+}
+
+.alert-warning {
+    align-self: end;
+}
+
+.alert {
+    border-radius: 0.50rem;
+    padding: 0.5rem 3rem;
+    margin-bottom: 0;
+}
+
+.alert-dismissible .btn-close {
+    padding: 0.8rem 1rem;
+}
+
+label {
+    color: rgb(82, 82, 0);
+}

@@ -1,0 +1,19 @@
+nav {
+    background-color: rgb(75, 75, 75) !important;
+}
+
+p {
+    float: left;
+}
+
+.foto {
+    margin: 0px 30px;
+}
+
+.navbar-brand {
+    margin: 0px 0px 0px 10px !important;
+}
+
+.userInfo {
+    color: white;
+}

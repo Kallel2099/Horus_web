@@ -1,0 +1,30 @@
+aside {    
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 88vh;
+    width: 200px;
+}
+
+ul {
+    flex-direction: column;
+}
+
+hr {
+    margin: 0px;
+    opacity: 0.05;
+}
+
+img {
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+}
+
+a {
+    color: white;
+    font-size: 13px;
+}
+
+.nav-link {
+    padding: 0.7rem 1rem;
+}
